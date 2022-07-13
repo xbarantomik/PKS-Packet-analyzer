@@ -1,0 +1,106 @@
+EtherType ----------------
+# 267 PVSTP+
+# 512 XEROX PUP
+# 513 PUP Addr Trans
+# 2048 IPv4
+# 2049 X.75 Internet
+# 2053 X.25 Level 3
+# 2054 ARP
+# 32821 Revers ARP
+# 32923 Appletalk
+# 33011 Appletalk AARP
+# 33024 IEEE 802.1Q VLAN-tagged frames
+# 33079 Novell IPX
+# 34525 IPv6
+# 34827 PPP
+# 34887 MPLS
+# 34888 MPLS with upstream-assigned label
+# 34915 PPPoE Discovery Stage
+# 35020 LLDP
+# 34916 PPPoE Session Stag
+SAP ---------------------
+$ 0 NULL SAP
+$ 2 LLC Sublayer Management / Individual
+$ 3 LLC Sublayer Management / Group
+$ 6 IP (DOD Internet Protocol)
+$ 14 PROWAY (IEC 955)
+$ 66 BPDU (Bridge PDU / 802.1 Spanning tree)
+$ 78 MMS (Manufacturing Message Service) EIA-RS 511
+$ 94 ISI IP
+$ 126 X.25 PLP (ISO 8208)
+$ 142 PROWAY (IEC 955) Active Station List Maintenance
+$ 170 SNAP
+$ 224 IPX (Novell NetWare)
+$ 244 LAN Management
+$ 254 ISO Network Layer Protocols
+$ 255 Global DSAP
+IP -----------------------
+~ 1 ICMP
+~ 2 IGMP
+~ 6 TCP
+~ 9 IGRP
+~ 17 UDP
+~ 47 GRE
+~ 50 ESP
+~ 51 AH
+~ 57 SKIP
+~ 88 EIGRP
+~ 89 OSPF
+~ 115 L2TP
+ARP ----------------------
+< 1 Request
+< 2 Reply
+TCP ----------------------
+* 7 ECHO
+* 19 CHARGEN
+* 20 FTP-DATA
+* 21 FTP-CONTROL
+* 22 SSH
+* 23 TELNET
+* 25 SMTP
+* 53 DOMAIN
+* 79 FINGER
+* 80 HTTP
+* 110 POP3
+* 111 SUNRPC
+* 119 NNTP
+* 139 NETBIOS-SSN
+* 143 IMAP
+* 179 BGP
+* 389 LDAP
+* 443 HTTPS
+* 445 MICROSOFT-DS
+* 1080 SOCKS
+UDP ----------------------
++ 7 ECHO
++ 19 CHARGEN
++ 37 TIME
++ 53 DOMAIN (DNS)
++ 67 BOOTPS (DHCP)
++ 68 BOOTPC (DHCP)
++ 69 TFTP
++ 137 NETBIOS-NS
++ 138 NETBIOS DGM
++ 161 SNMP
++ 162 SNMP-TRAP
++ 500 ISAMP
++ 514 SYSLOG
++ 520 RIP
++ 33434 Traceroute
+ICMP ---------------------
+| 0 ECHO REPLY
+| 3 DESTINATION UNRECHABLE
+| 4 SOURCE QUENCH
+| 5 REDIRECT
+| 8 ECHO
+| 9 ROUTER ADVERTISEMENT
+| 10 ROUTER SELECTION
+| 11 TIME EXCEEDED
+| 12 PARAMETER PROBLEM
+| 13 TIMESTAMP
+| 14 TIMESTAMP REPLY
+| 15 INFORMATION REQUEST
+| 16 INFORMATION REPLY
+| 17 ADDRESS MASK REQUEST
+| 18 ADDRESS MASK REPLY
+| 30 TRACEROUTE
